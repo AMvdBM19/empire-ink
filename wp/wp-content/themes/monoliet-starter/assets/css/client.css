@@ -1,0 +1,142 @@
+/**
+ * Client Custom Properties
+ *
+ * This is the ONLY file edited per client.
+ * All visual properties are defined here as CSS custom properties.
+ * Default values produce a clean, neutral light theme.
+ */
+
+:root {
+    /* ── Colors ── */
+    --color-primary: #D4A85A;
+    --color-primary-hover: #E0BC78;
+    --color-primary-light: #2A2218;
+    --color-secondary: #1A1714;
+    --color-secondary-hover: #0D0B09;
+    --color-accent: #D4A85A;
+    --color-accent-hover: #E0BC78;
+
+    --color-bg: #0D0B09;
+    --color-bg-alt: #1A1714;
+    --color-bg-dark: #0D0B09;
+    --color-surface: #1A1714;
+    --color-surface-hover: #221F1A;
+
+    --color-text: #F5F0EB;
+    --color-text-light: #A89B8C;
+    --color-text-inverse: #0D0B09;
+    --color-text-on-primary: #0D0B09;
+
+    --color-border: #2A2520;
+    --color-border-light: #221F1A;
+
+    --color-success: #4a7c59;
+    --color-warning: #D4A85A;
+    --color-error: #c0392b;
+
+    /* ── Typography ── */
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-heading: 'Oswald', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.6;
+    --line-height-relaxed: 1.8;
+
+    /* ── Spacing ── */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+    --space-4xl: 6rem;
+
+    --section-padding: var(--space-4xl) 0;
+    --container-max: 1200px;
+    --container-padding: var(--space-lg);
+
+    /* ── Borders & Radius ── */
+    --border-width: 1px;
+    --border-color: var(--color-border);
+    --radius-sm: 0px;
+    --radius-md: 0px;
+    --radius-lg: 0px;
+    --radius-xl: 0px;
+    --radius-full: 0px;
+
+    /* ── Shadows ── */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6), 0 4px 8px rgba(0, 0, 0, 0.4);
+    --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.7), 0 8px 16px rgba(0, 0, 0, 0.5);
+
+    /* ── Transitions ── */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+
+    /* ── Header ── */
+    --header-height: 4.5rem;
+    --header-bg: #0D0B09;
+    --header-shadow: 0 1px 0 #2A2520;
+    --header-cta-bg: var(--color-primary);
+    --header-cta-color: #0D0B09;
+
+    /* ── Hero ── */
+    --hero-bg: #0D0B09;
+    --hero-text: #F5F0EB;
+    --hero-overlay: rgba(13, 11, 9, 0.65);
+    --hero-min-height: 85vh;
+
+    /* ── Footer ── */
+    --footer-bg: #0D0B09;
+    --footer-text: #A89B8C;
+    --footer-heading: #F5F0EB;
+    --footer-link: #A89B8C;
+    --footer-link-hover: #D4A85A;
+    --footer-border: #2A2520;
+
+    /* ── Cards ── */
+    --card-bg: #1A1714;
+    --card-border: #2A2520;
+    --card-shadow: var(--shadow-md);
+    --card-shadow-hover: var(--shadow-lg);
+    --card-radius: 0px;
+    --card-padding: var(--space-xl);
+
+    /* ── Buttons ── */
+    --btn-radius: 0px;
+    --btn-padding: 0.75rem 1.75rem;
+    --btn-font-weight: var(--font-weight-semibold);
+
+    /* ── Forms ── */
+    --input-bg: #1A1714;
+    --input-border: #2A2520;
+    --input-focus-border: #D4A85A;
+    --input-radius: 0px;
+    --input-padding: 0.75rem 1rem;
+
+    /* ── Rating / Stars ── */
+    --star-color: #D4A85A;
+    --star-empty: #2A2520;
+
+    /* ── Google Fonts URL (override per client) ── */
+    --google-fonts-url: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap';
+}

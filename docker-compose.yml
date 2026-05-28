@@ -1,0 +1,40 @@
+services:
+  wordpress:
+    image: wordpress:6.7-php8.3-apache
+    container_name: wp-empire-ink
+    restart: unless-stopped
+    environment:
+      WORDPRESS_DB_HOST: shared-mariadb:3306
+      WORDPRESS_DB_NAME: wp_empire_ink
+      WORDPRESS_DB_USER: wp_empire_ink
+      WORDPRESS_DB_PASSWORD: XqmynZkdaPT5Okbe9e1MhD2aiVlQsqkK
+      WORDPRESS_TABLE_PREFIX: wp_
+      WORDPRESS_CONFIG_EXTRA: |
+        define('DISALLOW_FILE_EDIT', true);
+        define('AUTOMATIC_UPDATER_DISABLED', true);
+        define('WP_POST_REVISIONS', 5);
+        define('MONOLIET_API_KEY', '713d25fdcc03100cae08278628d0082577ee5fd3489b221d4f3e85103b63de80');
+    volumes:
+      - ./wp/wp-content/themes/monoliet-starter:/var/www/html/wp-content/themes/monoliet-starter
+      - /opt/docker/wp-factory/shared-plugins:/var/www/html/wp-content/plugins:ro
+      - uploads-empire-ink:/var/www/html/wp-content/uploads
+    networks:
+      - monoliet-network
+    deploy:
+      resources:
+        limits:
+          memory: 200M
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost/ || curl -f http://localhost/wp-admin/install.php"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  uploads-empire-ink:
+    name: uploads-empire-ink
+
+networks:
+  monoliet-network:
+    external: true

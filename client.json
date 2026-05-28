@@ -1,0 +1,10 @@
+{
+    "slug": "empire-ink",
+    "name": "Empire INK",
+    "domain": "empire-ink.nl",
+    "db_name": "wp_empire_ink",
+    "db_user": "wp_empire_ink",
+    "container": "wp-empire-ink",
+    "created": "2026-05-28T14:56:05Z",
+    "vps_path": "/opt/docker/clients/empire-ink"
+}

@@ -1,0 +1,26 @@
+#!/bin/sh
+# Empire INK — Deploy script
+set -e
+
+SITE_DIR="/opt/docker/clients/empire-ink"
+
+echo "==> Deploying Empire INK..."
+
+cd "$SITE_DIR"
+git pull origin main
+
+echo "==> Restarting WordPress container..."
+docker compose restart wordpress
+
+echo "==> Waiting for health check..."
+sleep 10
+
+HEALTH=$(curl -sf "http://localhost/wp-json/monoliet/v1/health" -H "Host: empire-ink.nl" 2>/dev/null || echo "FAIL")
+if echo "$HEALTH" | grep -q "wp_version"; then
+    echo "==> Deploy successful."
+    echo "$HEALTH" | head -1
+else
+    echo "!!! Health check failed. Check container logs:"
+    echo "    docker logs wp-empire-ink --tail 50"
+    exit 1
+fi
