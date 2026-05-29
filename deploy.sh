@@ -15,7 +15,7 @@ docker compose restart wordpress
 echo "==> Waiting for health check..."
 sleep 10
 
-HEALTH=$(curl -sf "http://localhost/wp-json/monoliet/v1/health" -H "Host: empire-ink.nl" 2>/dev/null || echo "FAIL")
+HEALTH=$(curl -sf "http://localhost/wp-json/monoliet/v1/health" -H "Host: empire-ink.monoliet.cloud" 2>/dev/null || echo "FAIL")
 if echo "$HEALTH" | grep -q "wp_version"; then
     echo "==> Deploy successful."
     echo "$HEALTH" | head -1

@@ -1,7 +1,7 @@
 {
     "slug": "empire-ink",
     "name": "Empire INK",
-    "domain": "empire-ink.nl",
+    "domain": "empire-ink.monoliet.cloud",
     "db_name": "wp_empire_ink",
     "db_user": "wp_empire_ink",
     "container": "wp-empire-ink",

@@ -5,7 +5,7 @@
 | Key | Value |
 |---|---|
 | Client | Empire INK |
-| Domain | empire-ink.nl |
+| Domain | empire-ink.monoliet.cloud |
 | Slug | empire-ink |
 | VPS Path | /opt/docker/clients/empire-ink |
 | Container | wp-empire-ink |
@@ -16,7 +16,7 @@
 
 ```
 Internet → nginx-proxy-manager
-└── empire-ink.nl → wp-empire-ink:80
+└── empire-ink.monoliet.cloud → wp-empire-ink:80
 
 Docker:
 ├── wp-empire-ink (WordPress 6.7 + PHP 8.3)
@@ -36,7 +36,7 @@ docker compose restart wordpress
 
 ### Check health
 ```bash
-curl -s https://empire-ink.nl/wp-json/monoliet/v1/health | jq
+curl -s https://empire-ink.monoliet.cloud/wp-json/monoliet/v1/health | jq
 ```
 
 ### WP-CLI (inside container)
@@ -52,7 +52,7 @@ cd /opt/docker/clients/empire-ink
 
 ### Push reviews (from n8n or cron)
 ```bash
-curl -X POST https://empire-ink.nl/wp-json/monoliet/v1/reviews \
+curl -X POST https://empire-ink.monoliet.cloud/wp-json/monoliet/v1/reviews \
   -H "Content-Type: application/json" \
   -H "X-API-Key: <key>" \
   -d '[{"name":"John","rating":5,"text":"Great!","date":"2025-01-01","source":"Google"}]'

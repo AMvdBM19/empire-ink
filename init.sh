@@ -7,7 +7,7 @@ WP="wp --allow-root"
 
 echo "==> Installing WordPress..."
 $WP core install \
-  --url="https://empire-ink.nl" \
+  --url="https://empire-ink.monoliet.cloud" \
   --title="Empire INK" \
   --admin_user="monoliet" \
   --admin_password="82Og6yvMSA2cwaUC5GHZtll" \
@@ -74,5 +74,5 @@ echo "==> Flushing..."
 $WP cache flush
 $WP rewrite flush
 
-echo "==> Done. Site ready at https://empire-ink.nl"
+echo "==> Done. Site ready at https://empire-ink.monoliet.cloud"
 echo "    Admin: monoliet / 82Og6yvMSA2cwaUC5GHZtll"
