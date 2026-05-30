@@ -60,7 +60,7 @@ $footer_cols = array(
             <!-- Brand column -->
             <div class="footer-brand">
                 <?php if (has_custom_logo()) : ?>
-                    <div style="margin-bottom: 22px;">
+                    <div class="footer-brand__logo">
                         <?php the_custom_logo(); ?>
                     </div>
                 <?php else : ?>
@@ -153,6 +153,16 @@ $footer_cols = array(
     grid-template-columns: 2fr 1fr 1fr 1fr 1.4fr;
     gap: 48px;
     padding-bottom: 64px;
+}
+.footer-brand__logo {
+    margin-bottom: 22px;
+}
+.footer-brand__logo img,
+.footer-brand__logo .custom-logo {
+    height: 56px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
 }
 .footer-social {
     display: flex;

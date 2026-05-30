@@ -29,16 +29,16 @@ $logo_icon   = MONOLIET_THEME_URI . '/assets/img/logo-icon.png';
 <header class="site-header" role="banner" id="site-header">
     <div class="wrap nav-row">
         <!-- Logo -->
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="nav-logo" rel="home">
+        <div class="nav-logo">
             <?php if (has_custom_logo()) : ?>
                 <?php the_custom_logo(); ?>
             <?php else : ?>
-                <div class="nav-logo__text">
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="nav-logo__link" rel="home">
                     <div class="display nav-logo-word">EMPIRE <span style="color: var(--gold-3);">INK</span></div>
                     <div class="label-mono nav-logo-sub">ROTTERDAM · EST 2017</div>
-                </div>
+                </a>
             <?php endif; ?>
-        </a>
+        </div>
 
         <!-- Nav items (desktop) -->
         <nav class="nav-desktop hide-md" role="navigation" aria-label="<?php esc_attr_e('Primary Menu', 'monoliet-starter'); ?>">
@@ -157,13 +157,18 @@ $logo_icon   = MONOLIET_THEME_URI . '/assets/img/logo-icon.png';
     display: flex;
     align-items: center;
     gap: 12px;
+}
+.nav-logo a {
     text-decoration: none;
     color: var(--bone);
+    display: flex;
+    align-items: center;
 }
-.nav-logo img,
+.nav-logo .custom-logo-link img,
 .nav-logo .custom-logo {
-    height: 36px;
-    width: 36px;
+    height: 40px;
+    width: auto;
+    max-width: 160px;
     object-fit: contain;
     filter: drop-shadow(0 0 8px rgba(212,168,90,0.15));
 }
@@ -256,8 +261,8 @@ $logo_icon   = MONOLIET_THEME_URI . '/assets/img/logo-icon.png';
 @media (max-width: 640px) {
     .nav-logo-sub { display: none; }
     .nav-logo-word { font-size: 18px !important; }
-    .nav-logo img,
-    .nav-logo .custom-logo { height: 30px !important; width: 30px !important; }
+    .nav-logo .custom-logo-link img,
+    .nav-logo .custom-logo { height: 30px !important; width: auto !important; max-width: 120px !important; }
     .nav-cta { padding: 11px 16px !important; font-size: 11px !important; letter-spacing: 0.14em !important; }
 }
 @media (max-width: 420px) {
