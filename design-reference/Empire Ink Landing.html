@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Empire INK · Rotterdam · Tattoo & Piercing Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    /* Layered warm darks */
+    --ink-0: #07060a;       /* deepest */
+    --ink-1: #0d0b09;       /* base bg */
+    --ink-2: #14110f;       /* card / elevated */
+    --ink-3: #1d1916;       /* hover, borders */
+    --ink-4: #2a2521;
+
+    /* Refined champagne gold */
+    --gold-1: #c9a14a;
+    --gold-2: #d4a85a;      /* primary */
+    --gold-3: #e8c576;
+    --gold-4: #f0d68c;      /* highlight */
+    --gold-grad: linear-gradient(135deg, #b88a3a 0%, #d4a85a 35%, #f0d68c 55%, #c9a14a 100%);
+
+    /* Foreground */
+    --bone: #f5f1ea;
+    --bone-dim: #c6bcae;
+    --mute: #8a8278;
+    --mute-2: #5a544c;
+
+    --hair: rgba(245, 241, 234, 0.08);
+    --hair-strong: rgba(245, 241, 234, 0.16);
+
+    --font-display: 'Antonio', 'Oswald', sans-serif;
+    --font-serif: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--ink-1); color: var(--bone); }
+  body {
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* Atmospheric body texture - subtle noise + radial vignette */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(ellipse at 20% 0%, rgba(212, 168, 90, 0.06), transparent 50%),
+      radial-gradient(ellipse at 100% 100%, rgba(212, 168, 90, 0.04), transparent 50%);
+  }
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
+  #app { position: relative; z-index: 2; }
+
+  ::selection { background: var(--gold-2); color: var(--ink-0); }
+
+  /* Type */
+  .display { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.005em; text-transform: uppercase; line-height: 0.92; }
+  .serif-it { font-family: var(--font-serif); font-style: italic; font-weight: 400; }
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold-3);
+  }
+  .label-mono {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 14px 24px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform .3s cubic-bezier(.2,.7,.2,1), background .3s, color .3s, border-color .3s;
+    white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .btn { padding: 13px 20px; font-size: 12px; letter-spacing: 0.14em; }
+  }
+  .btn-gold {
+    background: var(--gold-grad);
+    color: #1a1209;
+    border-color: rgba(0,0,0,0.0);
+    box-shadow: 0 0 0 1px rgba(212, 168, 90, 0.0), 0 12px 30px -12px rgba(212, 168, 90, 0.4);
+  }
+  .btn-gold:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 0 1px rgba(240, 214, 140, 0.4), 0 18px 40px -10px rgba(212, 168, 90, 0.55);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--bone);
+    border-color: var(--hair-strong);
+  }
+  .btn-ghost:hover {
+    border-color: var(--gold-2);
+    color: var(--gold-3);
+  }
+  .btn-arrow svg { transition: transform .3s; }
+  .btn-arrow:hover svg { transform: translateX(4px); }
+
+  /* Container */
+  .wrap { max-width: 1440px; margin: 0 auto; padding: 0 48px; }
+  @media (max-width: 1024px) { .wrap { padding: 0 32px; } }
+  @media (max-width: 640px)  { .wrap { padding: 0 20px; } }
+
+  /* Hair separators */
+  .hair { border: 0; height: 1px; background: var(--hair); margin: 0; }
+  .hair-gold { background: linear-gradient(90deg, transparent, var(--gold-2), transparent); height: 1px; }
+
+  /* Section */
+  section { position: relative; }
+  .section-pad { padding: 140px 0; }
+  @media (max-width: 1024px) { .section-pad { padding: 100px 0; } }
+  @media (max-width: 640px)  { .section-pad { padding: 72px 0; } }
+
+  /* Section header layout */
+  .section-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 40px;
+    margin-bottom: 64px;
+  }
+  @media (max-width: 640px) { .section-head { margin-bottom: 40px; gap: 24px; } }
+  .section-head .title { font-size: clamp(40px, 6vw, 88px); }
+  .section-head .num {
+    font-family: var(--font-display);
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    color: var(--gold-3);
+  }
+
+  /* Image placeholder block - subtle striped */
+  .ph {
+    background:
+      repeating-linear-gradient(135deg, rgba(212,168,90,0.05) 0 2px, transparent 2px 14px),
+      linear-gradient(180deg, #1a1614, #0f0d0b);
+    position: relative;
+    overflow: hidden;
+  }
+  .ph::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-family: ui-monospace, monospace;
+    font-size: 10px;
+    color: var(--mute);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  /* Real image asset */
+  .asset { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* Utility */
+  .grid { display: grid; }
+  .flex { display: flex; }
+  .center { display: flex; align-items: center; justify-content: center; }
+
+  /* Tab/chip */
+  .chip {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--bone-dim);
+    padding: 10px 18px;
+    border: 1px solid var(--hair);
+    background: transparent;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .chip:hover { color: var(--bone); border-color: var(--hair-strong); }
+  .chip.active {
+    color: var(--gold-3);
+    border-color: var(--gold-2);
+    background: rgba(212, 168, 90, 0.06);
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slowZoom {
+    from { transform: scale(1.06); }
+    to   { transform: scale(1.0); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .reveal { animation: fadeUp .9s cubic-bezier(.2,.7,.2,1) both; }
+
+  /* Marquee for proof strip */
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* Hero responsive */
+  @media (max-width: 640px) {
+    .hero-sub { font-size: 15px !important; margin-top: 22px !important; max-width: 100% !important; }
+    .hero-ctas { margin-top: 30px !important; gap: 10px !important; }
+    .hero-ctas .btn { flex: 1 1 auto; justify-content: center; }
+  }
+
+  /* Promo card responsive image */
+  @media (max-width: 900px) {
+    .promo-image-wrap { min-height: 300px !important; }
+  }
+  @media (max-width: 480px) {
+    .promo-image-wrap { min-height: 240px !important; }
+  }
+
+  /* Studio image aspect on mobile */
+  @media (max-width: 1000px) {
+    .studio-image-wrap { aspect-ratio: 4 / 3 !important; }
+  }
+
+  /* Service cards on mobile */
+  @media (max-width: 640px) {
+    .svc-card { grid-template-rows: 240px 1fr !important; }
+    .svc-card > div:last-child { padding: 24px !important; gap: 16px !important; }
+    .svc-card h3 { font-size: 36px !important; }
+  }
+</style>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="app"></div>
+
+<script type="text/babel" src="content.jsx"></script>
+<script type="text/babel" src="sections.jsx"></script>
+<script type="text/babel" src="app-sections.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

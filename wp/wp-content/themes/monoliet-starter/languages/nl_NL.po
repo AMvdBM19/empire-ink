@@ -446,3 +446,300 @@ msgstr "Beheerd door"
 
 msgid "Book Now"
 msgstr "Boek Nu"
+
+# ── Empire INK Design Sections ──
+
+# Top Strip
+msgid "Open 7 dagen per week"
+msgstr "Open 7 dagen per week"
+
+msgid "Walk-ins welkom"
+msgstr "Walk-ins welkom"
+
+msgid "9.6 op Google"
+msgstr "9.6 op Google"
+
+# Nav
+msgid "Boek Nu"
+msgstr "Boek Nu"
+
+# Hero
+msgid "Rotterdam · Sinds 2017"
+msgstr "Rotterdam · Sinds 2017"
+
+msgid "Jouw verhaal,"
+msgstr "Jouw verhaal,"
+
+msgid "ons canvas"
+msgstr "ons canvas"
+
+msgid "verhaal"
+msgstr "verhaal"
+
+msgid "Maak een Afspraak"
+msgstr "Maak een Afspraak"
+
+msgid "Bekijk Portfolio"
+msgstr "Bekijk Portfolio"
+
+msgid "Scroll om te ontdekken"
+msgstr "Scroll om te ontdekken"
+
+# Social Proof (fallback)
+msgid "Google rating"
+msgstr "Google rating"
+
+msgid "Studio in Rotterdam-Zuid"
+msgstr "Studio in Rotterdam-Zuid"
+
+msgid "Dagen per week open"
+msgstr "Dagen per week open"
+
+msgid "Gecertificeerde hygiëne"
+msgstr "Gecertificeerde hygiëne"
+
+# Portfolio
+msgid "Portfolio · 01"
+msgstr "Portfolio · 01"
+
+msgid "Het werk"
+msgstr "Het werk"
+
+msgid "Een selectie uit duizenden uren. Filter op stijl om te ontdekken welke artiest bij jouw idee past."
+msgstr "Een selectie uit duizenden uren. Filter op stijl om te ontdekken welke artiest bij jouw idee past."
+
+msgid "Alles"
+msgstr "Alles"
+
+msgid "Bekijk volledig portfolio"
+msgstr "Bekijk volledig portfolio"
+
+msgid "Portret · Onderarm"
+msgstr "Portret · Onderarm"
+
+msgid "Rug · Composiet"
+msgstr "Rug · Composiet"
+
+msgid "Mandala · Borst"
+msgstr "Mandala · Borst"
+
+msgid "Floral · Sleeve"
+msgstr "Floral · Sleeve"
+
+msgid "Cover · Bovenarm"
+msgstr "Cover · Bovenarm"
+
+msgid "Tijger · Dij"
+msgstr "Tijger · Dij"
+
+msgid "Geometrisch · Hand"
+msgstr "Geometrisch · Hand"
+
+msgid "Slang · Schouder"
+msgstr "Slang · Schouder"
+
+# Artists
+msgid "De crew · 02"
+msgstr "De crew · 02"
+
+msgid "De artiesten"
+msgstr "De artiesten"
+
+msgid "Acht handen, acht handschriften. Boek direct bij wie bij jouw idee past."
+msgstr "Acht handen, acht handschriften. Boek direct bij wie bij jouw idee past."
+
+msgid "Boek bij %s"
+msgstr "Boek bij %s"
+
+# Services
+msgid "Diensten · 03"
+msgstr "Diensten · 03"
+
+msgid "Twee disciplines."
+msgstr "Twee disciplines."
+
+msgid "Eén standaard."
+msgstr "Eén standaard."
+
+msgid "Tattoo"
+msgstr "Tattoo"
+
+msgid "Van fineline tot full sleeve. Intake, ontwerp en ink-tijd inbegrepen vanaf het eerste consult."
+msgstr "Van fineline tot full sleeve. Intake, ontwerp en ink-tijd inbegrepen vanaf het eerste consult."
+
+msgid "Vanaf"
+msgstr "Vanaf"
+
+msgid "incl. intake + ink-tijd"
+msgstr "incl. intake + ink-tijd"
+
+msgid "Persoonlijk ontwerp"
+msgstr "Persoonlijk ontwerp"
+
+msgid "Vrijblijvend consult"
+msgstr "Vrijblijvend consult"
+
+msgid "Garantie op afwerking"
+msgstr "Garantie op afwerking"
+
+msgid "Plan intake"
+msgstr "Plan intake"
+
+msgid "Piercing"
+msgstr "Piercing"
+
+msgid "Drie ervaren piercers, dagelijks walk-in. Premium titanium en goud op voorraad, GGD-gecertificeerde hygiëne."
+msgstr "Drie ervaren piercers, dagelijks walk-in. Premium titanium en goud op voorraad, GGD-gecertificeerde hygiëne."
+
+msgid "Walk-in"
+msgstr "Walk-in"
+
+msgid "Dagelijks"
+msgstr "Dagelijks"
+
+msgid "geen afspraak nodig"
+msgstr "geen afspraak nodig"
+
+msgid "Premium titanium & 14K goud"
+msgstr "Premium titanium & 14K goud"
+
+msgid "Direct terecht"
+msgstr "Direct terecht"
+
+msgid "Nazorg inbegrepen"
+msgstr "Nazorg inbegrepen"
+
+msgid "Bekijk piercings"
+msgstr "Bekijk piercings"
+
+# Promo
+msgid "Lopende actie · 04"
+msgstr "Lopende actie · 04"
+
+msgid "Trio Piercing Set"
+msgstr "Trio Piercing Set"
+
+msgid "Drie premium piercings. Eén afspraak. Eén prijs."
+msgstr "Drie premium piercings. Eén afspraak. Eén prijs."
+
+msgid "Claim deze deal"
+msgstr "Claim deze deal"
+
+msgid "Deze maand"
+msgstr "Deze maand"
+
+msgid "Aanbieding geldig t/m einde van de maand. Premium titanium inbegrepen. Op vertoon van legitimatie. Volg de huisregels voor minderjarigen."
+msgstr "Aanbieding geldig t/m einde van de maand. Premium titanium inbegrepen. Op vertoon van legitimatie. Volg de huisregels voor minderjarigen."
+
+# Reviews
+msgid "Reviews · 05"
+msgstr "Reviews · 05"
+
+msgid "Wat klanten zeggen"
+msgstr "Wat klanten zeggen"
+
+msgid "Gemiddeld 9.6 sterren over honderden reviews."
+msgstr "Gemiddeld 9.6 sterren over honderden reviews."
+
+# Studio
+msgid "De studio · 06"
+msgstr "De studio · 06"
+
+msgid "Kom langs"
+msgstr "Kom langs"
+
+msgid "500 vierkante meter. Acht kabines. Een aparte piercingsuite. Een wachtruimte waar je daadwerkelijk wilt wachten."
+msgstr "500 vierkante meter. Acht kabines. Een aparte piercingsuite. Een wachtruimte waar je daadwerkelijk wilt wachten."
+
+msgid "Adres"
+msgstr "Adres"
+
+msgid "Routebeschrijving"
+msgstr "Routebeschrijving"
+
+msgid "Bel ons"
+msgstr "Bel ons"
+
+msgid "Openingstijden"
+msgstr "Openingstijden"
+
+msgid "Ma — Vr · 11:00 — 21:00"
+msgstr "Ma — Vr · 11:00 — 21:00"
+
+msgid "Za — Zo · 11:00 — 19:00"
+msgstr "Za — Zo · 11:00 — 19:00"
+
+# CTA
+msgid "Klaar voor je"
+msgstr "Klaar voor je"
+
+msgid "volgende stuk"
+msgstr "volgende stuk"
+
+msgid "Plan een vrijblijvend consult of loop binnen. We zijn er — zeven dagen per week."
+msgstr "Plan een vrijblijvend consult of loop binnen. We zijn er — zeven dagen per week."
+
+msgid "Bel %s"
+msgstr "Bel %s"
+
+# Footer
+msgid "Premium tattoo & piercing studio. Rotterdam, sinds 2017."
+msgstr "Premium tattoo & piercing studio. Rotterdam, sinds 2017."
+
+msgid "Nieuwsbrief"
+msgstr "Nieuwsbrief"
+
+msgid "jouw@email.nl"
+msgstr "jouw@email.nl"
+
+msgid "Aanmelden"
+msgstr "Aanmelden"
+
+msgid "Studio"
+msgstr "Studio"
+
+msgid "Tattoo Info"
+msgstr "Tattoo Info"
+
+msgid "Piercing Info"
+msgstr "Piercing Info"
+
+msgid "Artiesten"
+msgstr "Artiesten"
+
+msgid "Bezoek"
+msgstr "Bezoek"
+
+msgid "Over Ons"
+msgstr "Over Ons"
+
+msgid "Prijzen & Acties"
+msgstr "Prijzen & Acties"
+
+msgid "Cadeaubonnen"
+msgstr "Cadeaubonnen"
+
+msgid "Legal"
+msgstr "Legal"
+
+msgid "Privacybeleid"
+msgstr "Privacybeleid"
+
+msgid "Algemene voorwaarden"
+msgstr "Algemene voorwaarden"
+
+msgid "Huisregels"
+msgstr "Huisregels"
+
+msgid "Cookies"
+msgstr "Cookies"
+
+# Fallback testimonials
+msgid "De rust waarmee Mees werkte was ongelooflijk. Acht uur in de stoel voelde als twee. Het resultaat is exact wat ik voor ogen had — alleen beter."
+msgstr "De rust waarmee Mees werkte was ongelooflijk. Acht uur in de stoel voelde als twee. Het resultaat is exact wat ik voor ogen had — alleen beter."
+
+msgid "Walk-in piercing op zondag, binnen 20 minuten geholpen, alles steriel en uitgelegd. Dit is gewoon hoe het hoort."
+msgstr "Walk-in piercing op zondag, binnen 20 minuten geholpen, alles steriel en uitgelegd. Dit is gewoon hoe het hoort."
+
+msgid "Ik kwam voor een cover-up van iets waar ik tien jaar last van had. Joris heeft er kunst van gemaakt. Geen woorden voor."
+msgstr "Ik kwam voor een cover-up van iets waar ik tien jaar last van had. Joris heeft er kunst van gemaakt. Geen woorden voor."

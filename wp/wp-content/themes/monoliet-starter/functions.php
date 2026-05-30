@@ -50,13 +50,10 @@ add_action('after_setup_theme', 'monoliet_setup');
  * Enqueue styles and scripts.
  */
 function monoliet_scripts() {
-    $google_fonts_url = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap';
-    wp_enqueue_style('monoliet-google-fonts', $google_fonts_url, array(), null);
-
-    wp_enqueue_style('monoliet-base', MONOLIET_THEME_URI . '/assets/css/base.css', array('monoliet-google-fonts'), MONOLIET_THEME_VERSION);
+    wp_enqueue_style('monoliet-client', MONOLIET_THEME_URI . '/assets/css/client.css', array(), MONOLIET_THEME_VERSION);
+    wp_enqueue_style('monoliet-base', MONOLIET_THEME_URI . '/assets/css/base.css', array('monoliet-client'), MONOLIET_THEME_VERSION);
     wp_enqueue_style('monoliet-components', MONOLIET_THEME_URI . '/assets/css/components.css', array('monoliet-base'), MONOLIET_THEME_VERSION);
-    wp_enqueue_style('monoliet-client', MONOLIET_THEME_URI . '/assets/css/client.css', array('monoliet-components'), MONOLIET_THEME_VERSION);
-    wp_enqueue_style('monoliet-style', get_stylesheet_uri(), array('monoliet-client'), MONOLIET_THEME_VERSION);
+    wp_enqueue_style('monoliet-style', get_stylesheet_uri(), array('monoliet-components'), MONOLIET_THEME_VERSION);
 
     wp_enqueue_script('monoliet-main', MONOLIET_THEME_URI . '/assets/js/main.js', array(), MONOLIET_THEME_VERSION, true);
 }

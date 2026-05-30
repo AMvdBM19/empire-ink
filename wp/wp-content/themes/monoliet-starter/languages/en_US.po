@@ -446,3 +446,287 @@ msgstr "Managed by"
 
 msgid "Book Now"
 msgstr "Book Now"
+
+# ── Empire INK Design Sections (NL→EN) ──
+
+msgid "Open 7 dagen per week"
+msgstr "Open 7 days a week"
+
+msgid "Walk-ins welkom"
+msgstr "Walk-ins welcome"
+
+msgid "9.6 op Google"
+msgstr "9.6 on Google"
+
+msgid "Boek Nu"
+msgstr "Book Now"
+
+msgid "Rotterdam · Sinds 2017"
+msgstr "Rotterdam · Since 2017"
+
+msgid "Jouw verhaal,"
+msgstr "Your story,"
+
+msgid "ons canvas"
+msgstr "our canvas"
+
+msgid "verhaal"
+msgstr "story"
+
+msgid "Maak een Afspraak"
+msgstr "Book a Session"
+
+msgid "Bekijk Portfolio"
+msgstr "View Portfolio"
+
+msgid "Scroll om te ontdekken"
+msgstr "Scroll to explore"
+
+msgid "Google rating"
+msgstr "Google rating"
+
+msgid "Studio in Rotterdam-Zuid"
+msgstr "Studio in Rotterdam-Zuid"
+
+msgid "Dagen per week open"
+msgstr "Days open per week"
+
+msgid "Gecertificeerde hygiëne"
+msgstr "Certified hygiene"
+
+msgid "Portfolio · 01"
+msgstr "Portfolio · 01"
+
+msgid "Het werk"
+msgstr "The work"
+
+msgid "Een selectie uit duizenden uren. Filter op stijl om te ontdekken welke artiest bij jouw idee past."
+msgstr "A selection from thousands of hours. Filter by style to find the artist that matches your idea."
+
+msgid "Alles"
+msgstr "All"
+
+msgid "Bekijk volledig portfolio"
+msgstr "View full portfolio"
+
+msgid "Portret · Onderarm"
+msgstr "Portrait · Forearm"
+
+msgid "Rug · Composiet"
+msgstr "Back · Composite"
+
+msgid "Mandala · Borst"
+msgstr "Mandala · Chest"
+
+msgid "Floral · Sleeve"
+msgstr "Floral · Sleeve"
+
+msgid "Cover · Bovenarm"
+msgstr "Cover · Upper arm"
+
+msgid "Tijger · Dij"
+msgstr "Tiger · Thigh"
+
+msgid "Geometrisch · Hand"
+msgstr "Geometric · Hand"
+
+msgid "Slang · Schouder"
+msgstr "Snake · Shoulder"
+
+msgid "De crew · 02"
+msgstr "The crew · 02"
+
+msgid "De artiesten"
+msgstr "The artists"
+
+msgid "Acht handen, acht handschriften. Boek direct bij wie bij jouw idee past."
+msgstr "Eight hands, eight signatures. Book directly with the one that fits your idea."
+
+msgid "Boek bij %s"
+msgstr "Book with %s"
+
+msgid "Diensten · 03"
+msgstr "Services · 03"
+
+msgid "Twee disciplines."
+msgstr "Two disciplines."
+
+msgid "Eén standaard."
+msgstr "One standard."
+
+msgid "Tattoo"
+msgstr "Tattoo"
+
+msgid "Van fineline tot full sleeve. Intake, ontwerp en ink-tijd inbegrepen vanaf het eerste consult."
+msgstr "From fineline to full sleeve. Consult, design and ink time included from the first session."
+
+msgid "Vanaf"
+msgstr "From"
+
+msgid "incl. intake + ink-tijd"
+msgstr "incl. consult + ink time"
+
+msgid "Persoonlijk ontwerp"
+msgstr "Custom design"
+
+msgid "Vrijblijvend consult"
+msgstr "Free consultation"
+
+msgid "Garantie op afwerking"
+msgstr "Aftercare guarantee"
+
+msgid "Plan intake"
+msgstr "Book a consult"
+
+msgid "Piercing"
+msgstr "Piercing"
+
+msgid "Drie ervaren piercers, dagelijks walk-in. Premium titanium en goud op voorraad, GGD-gecertificeerde hygiëne."
+msgstr "Three experienced piercers, walk-in every day. Premium titanium and gold in stock, GGD-certified hygiene."
+
+msgid "Walk-in"
+msgstr "Walk-in"
+
+msgid "Dagelijks"
+msgstr "Daily"
+
+msgid "geen afspraak nodig"
+msgstr "no appointment needed"
+
+msgid "Premium titanium & 14K goud"
+msgstr "Premium titanium & 14K gold"
+
+msgid "Direct terecht"
+msgstr "Same-day service"
+
+msgid "Nazorg inbegrepen"
+msgstr "Aftercare included"
+
+msgid "Bekijk piercings"
+msgstr "See piercings"
+
+msgid "Lopende actie · 04"
+msgstr "Current deal · 04"
+
+msgid "Trio Piercing Set"
+msgstr "Trio Piercing Set"
+
+msgid "Drie premium piercings. Eén afspraak. Eén prijs."
+msgstr "Three premium piercings. One sitting. One price."
+
+msgid "Claim deze deal"
+msgstr "Claim this deal"
+
+msgid "Deze maand"
+msgstr "This month"
+
+msgid "Aanbieding geldig t/m einde van de maand. Premium titanium inbegrepen. Op vertoon van legitimatie. Volg de huisregels voor minderjarigen."
+msgstr "Offer valid until end of month. Premium titanium included. Valid ID required. House rules apply to minors."
+
+msgid "Reviews · 05"
+msgstr "Reviews · 05"
+
+msgid "Wat klanten zeggen"
+msgstr "What clients say"
+
+msgid "Gemiddeld 9.6 sterren over honderden reviews."
+msgstr "Averaging 9.6 stars across hundreds of reviews."
+
+msgid "De studio · 06"
+msgstr "The studio · 06"
+
+msgid "Kom langs"
+msgstr "Come by"
+
+msgid "500 vierkante meter. Acht kabines. Een aparte piercingsuite. Een wachtruimte waar je daadwerkelijk wilt wachten."
+msgstr "500 square metres. Eight booths. A separate piercing suite. A waiting area you actually want to wait in."
+
+msgid "Adres"
+msgstr "Address"
+
+msgid "Routebeschrijving"
+msgstr "Get directions"
+
+msgid "Bel ons"
+msgstr "Call us"
+
+msgid "Openingstijden"
+msgstr "Opening hours"
+
+msgid "Ma — Vr · 11:00 — 21:00"
+msgstr "Mon — Fri · 11:00 — 21:00"
+
+msgid "Za — Zo · 11:00 — 19:00"
+msgstr "Sat — Sun · 11:00 — 19:00"
+
+msgid "Klaar voor je"
+msgstr "Ready for your"
+
+msgid "volgende stuk"
+msgstr "next piece"
+
+msgid "Plan een vrijblijvend consult of loop binnen. We zijn er — zeven dagen per week."
+msgstr "Schedule a free consultation or walk in. We're here — seven days a week."
+
+msgid "Bel %s"
+msgstr "Call %s"
+
+msgid "Premium tattoo & piercing studio. Rotterdam, sinds 2017."
+msgstr "Premium tattoo & piercing studio. Rotterdam, since 2017."
+
+msgid "Nieuwsbrief"
+msgstr "Newsletter"
+
+msgid "jouw@email.nl"
+msgstr "you@email.com"
+
+msgid "Aanmelden"
+msgstr "Subscribe"
+
+msgid "Studio"
+msgstr "Studio"
+
+msgid "Tattoo Info"
+msgstr "Tattoo Info"
+
+msgid "Piercing Info"
+msgstr "Piercing Info"
+
+msgid "Artiesten"
+msgstr "Artists"
+
+msgid "Bezoek"
+msgstr "Visit"
+
+msgid "Over Ons"
+msgstr "About"
+
+msgid "Prijzen & Acties"
+msgstr "Pricing & Deals"
+
+msgid "Cadeaubonnen"
+msgstr "Gift cards"
+
+msgid "Legal"
+msgstr "Legal"
+
+msgid "Privacybeleid"
+msgstr "Privacy policy"
+
+msgid "Algemene voorwaarden"
+msgstr "Terms"
+
+msgid "Huisregels"
+msgstr "House rules"
+
+msgid "Cookies"
+msgstr "Cookies"
+
+msgid "De rust waarmee Mees werkte was ongelooflijk. Acht uur in de stoel voelde als twee. Het resultaat is exact wat ik voor ogen had — alleen beter."
+msgstr "The calm Mees worked with was unreal. Eight hours in the chair felt like two. The result is exactly what I had in mind — only better."
+
+msgid "Walk-in piercing op zondag, binnen 20 minuten geholpen, alles steriel en uitgelegd. Dit is gewoon hoe het hoort."
+msgstr "Walk-in piercing on a Sunday, helped within 20 minutes, everything sterile and explained. This is just how it should be."
+
+msgid "Ik kwam voor een cover-up van iets waar ik tien jaar last van had. Joris heeft er kunst van gemaakt. Geen woorden voor."
+msgstr "I came in for a cover-up of something I'd hated for ten years. Joris turned it into art. No words."
